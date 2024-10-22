@@ -1,0 +1,21 @@
+pipeline:
+  outputs:
+    dev:
+      database: "{{ env_var('DBT_DB') }}"
+      schema: public
+      host: "{{ env_var('db_host') }}"
+      user:  "{{ env_var('db_user') }}"
+      password:  "{{ env_var('db_password') }}"
+      port:  "{{ env_var('db_port') | int }}"
+      threads: 8
+      type: postgres
+    prod:
+      database: "{{ env_var('DBT_DB') }}"
+      schema: public
+      host: "{{ env_var('db_host') }}"
+      user:  "{{ env_var('db_user') }}"
+      password:  "{{ env_var('db_password') }}"
+      port:  "{{ env_var('db_port') | int }}"
+      threads: 8
+      type: postgres
+  target:  "{{ env_var('DBT_TGT') }}"

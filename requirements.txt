@@ -1,0 +1,13 @@
+pandas
+pandas-gbq
+python-dotenv
+dbt-core
+dbt-postgres
+openpyxl
+pre-commit
+google-generativeai
+beautifulsoup4
+pdf2image
+pillow
+python-pptx
+typer
