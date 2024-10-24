@@ -165,3 +165,4 @@ dbt_packages/
 logs/
 seeds/src
 .user.yml
+.vscode/
