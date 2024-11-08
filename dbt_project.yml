@@ -41,6 +41,7 @@ models:
     gold:
       schema: gold
       +materialized: table
+      +post-hook: "grant select on {{ this }} to web_anon; grant all on {{ this }} to web_user; NOTIFY pgrst, 'reload schema';"
     src:
       schema: src
       +materialized: table
