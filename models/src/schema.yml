@@ -8,3 +8,5 @@ sources:
       - name: nobel
       - name: social_media
       - name: pokemons
+      - name: questoes_rows
+      - name: questoes_gemini_rows
