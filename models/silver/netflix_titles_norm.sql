@@ -10,4 +10,4 @@ select  upper(show_id) as show_id,
         upper(duration) as duration,
         upper(listed_in) as listed_in,
         upper(description) as description
-from {{ source('src', 'netflix_titles') }}
+from {{ source('bronze', 'netflix_titles') }}

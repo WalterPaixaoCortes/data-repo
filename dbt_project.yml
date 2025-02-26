@@ -42,10 +42,8 @@ models:
       schema: gold
       +materialized: table
       +post-hook: "{{ grant_and_notify(this) }}"
-    src:
-      schema: src
-      +materialized: table
+
 seeds:
-  src:
-  +schema: src
+  bronze:
+  +schema: bronze
   +materialized: seed

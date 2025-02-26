@@ -14,7 +14,7 @@ select id,
        geracao,
        replace(danos,'''','"')::json as danos
 
-from {{ source('src','pokemons')}})
+from {{ source('bronze','pokemons')}})
 select id,
        nome,
        nivel,

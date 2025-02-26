@@ -1,0 +1,129 @@
+Dia,Hora Início,Hora Fim,Atividade,Tipo de Atividade
+03/out,00:00,07:30,Sono,Pessoal
+03/out,07:30,08:00,Pré-trabalho-casa,Pessoal
+03/out,08:00,08:45,E-mails,Trabalho
+03/out,08:45,09:00,Ginástica Laboral,Trabalho
+03/out,09:00,10:00,Suporte,Trabalho
+03/out,10:00,10:10,Reunião time,Trabalho
+03/out,10:10,11:52,Suporte,Trabalho
+03/out,11:52,13:00,Intervalo Almoço,Pessoal
+03/out,13:00,18:15,Desenvolvimento,Trabalho
+03/out,18:15,21:20,Reservado Família,Pessoal
+03/out,21:20,23:20,Reservado Pessoal,Pessoal
+03/out,23:20,00:00,Sono,Pessoal
+04/out,00:00,07:00,Sono,Pessoal
+04/out,07:00,07:30,Pré-trabalho,Pessoal
+04/out,07:30,08:45,E-mails,Trabalho
+04/out,08:45,09:00,Ginástica Laboral,Trabalho
+04/out,09:00,12:00,Médico,Pessoal
+04/out,12:00,14:00,Trabalho-Outro,Trabalho
+04/out,14:00,15:05,Reunião-Vol,Trabalho
+04/out,15:05,16:30,Desenvolvimento,Trabalho
+04/out,16:30,17:18,Reunião-1:1,Trabalho
+04/out,17:18,18:00,Relatórios,Trabalho
+04/out,18:00,18:30,Trabalho-Aula,Pessoal
+04/out,18:30,20:30,Aula-Línguas,Estudo
+04/out,20:30,22:20,Reservado Família,Pessoal
+04/out,22:20,23:40,Reservado Pessoal,Pessoal
+04/out,23:40,00:00,Sono,Pessoal
+05/out,00:00,08:15,Sono,Pessoal
+05/out,08:15,09:00,Pré-aula-sábado,Pessoal
+05/out,09:00,11:45,Aula-Línguas,Estudo
+05/out,11:45,13:30,Reservado Família,Pessoal
+05/out,13:30,16:30,Tarefas Família,Pessoal
+05/out,16:30,22:00,Reservado Família,Pessoal
+05/out,22:00,23:00,Reservado Pessoal,Pessoal
+05/out,23:40,00:00,Sono,Pessoal
+06/out,00:00,05:00,Sono,Pessoal
+06/out,05:00,06:20,Pré-viagem,Pessoal
+06/out,06:20,13:05,Viagem,Pessoal
+06/out,13:05,14:20,Eleições,Pessoal
+06/out,14:20,15:45,Reservado Família,Pessoal
+06/out,15:45,17:00,Reservado Pessoal,Pessoal
+06/out,17:00,18:30,Reservado Família,Pessoal
+06/out,18:20,20:00,Reservado Pessoal,Pessoal
+06/out,20:00,21:20,Reservado Família,Pessoal
+06/out,21:20,22:30,Reservado Pessoal,Pessoal
+06/out,22:30,00:00,Sono,Pessoal
+07/out,00:00,07:30,Sono,Pessoal
+07/out,07:30,08:00,Pré-trabalho-casa,Pessoal
+07/out,08:00,08:45,E-mails,Trabalho
+07/out,08:45,09:00,Ginástica Laboral,Trabalho
+07/out,09:00,10:00,Desenvolvimento,Trabalho
+07/out,10:00,10:37,Reunião time,Trabalho
+07/out,10:37,11:41,Suporte,Trabalho
+07/out,11:41,12:45,Intervalo Almoço,Pessoal
+07/out,12:45,18:00,Desenvolvimento,Trabalho
+07/out,18:00,18:30,Trabalho-Aula,Pessoal
+07/out,18:30,21:00,Aula-Línguas,Estudo
+07/out,21:00,22:20,Reservado Família,Pessoal
+07/out,22:20,23:40,Reservado Pessoal,Pessoal
+07/out,23:40,00:00,Estudo-Línguas,Pessoal
+08/out,00:00,00:30,Estudo-Línguas,Pessoal
+08/out,00:30,06:30,Sono,Pessoal
+08/out,06:30,08:00,Pré-trabalho-casa,Pessoal
+08/out,08:00,08:40,Reunião-outro,Trabalho
+08/out,08:40,08:45,E-mails,Trabalho
+08/out,08:45,09:00,Ginástica Laboral,Trabalho
+08/out,09:00,10:00,Desenvolvimento,Trabalho
+08/out,10:00,10:55,Reunião time,Trabalho
+08/out,10:55,12:07,Suporte,Trabalho
+08/out,12:07,13:17,Intervalo Almoço,Pessoal
+08/out,13:17,17:00,Desenvolvimento,Trabalho
+08/out,17:00,18:30,Reservado Família,Pessoal
+08/out,18:30,18:55,Desenvolvimento,Trabalho
+08/out,18:55,20:40,Voluntariado,Trabalho
+08/out,20:40,20:58,E-mails,Trabalho
+08/out,20:58,22:00,Reservado Família,Pessoal
+08/out,22:00,23:00,Reservado Pessoal,Pessoal
+08/out,23:00,00:00,Sono,Pessoal
+09/out,00:00,06:20,Sono,Pessoal
+09/out,06:20,08:00,Pré-trabalho-casa,Pessoal
+09/out,08:00,08:45,E-mails,Trabalho
+09/out,08:45,09:00,Ginástica Laboral,Trabalho
+09/out,09:00,10:00,Suporte,Trabalho
+09/out,10:00,10:35,Reunião time,Trabalho
+09/out,10:35,11:56,Suporte,Trabalho
+09/out,11:56,12:55,Intervalo Almoço,Pessoal
+09/out,12:45,15:00,Desenvolvimento,Trabalho
+09/out,15:00,15:33,Reunião-vol,Trabalho
+09/out,15:33,16:15,Reunião,Trabalho
+09/out,16:15,17:00,Desenvolvimento,Trabalho
+09/out,17:00,18:00,Reservado Família,Pessoal
+09/out,18:00,20:10,Desenvolvimento,Trabalho
+09/out,20:10,22:00,Reservado Família,Pessoal
+09/out,22:00,22:20,Reservado Pessoal,Pessoal
+09/out,22:20,00:00,Sono,Pessoal
+10/out,00:00,06:40,Sono,Pessoal
+10/out,06:40,08:10,Pré-trabalho-casa,Pessoal
+10/out,08:00,08:45,E-mails,Trabalho
+10/out,08:45,09:00,Ginástica Laboral,Trabalho
+10/out,09:00,10:00,Suporte,Trabalho
+10/out,10:00,10:15,Reunião time,Trabalho
+10/out,10:15,11:00,Desenvolvimento,Trabalho
+10/out,11:00,11:44,Reunião,Trabalho
+10/out,11:44,13:00,Intervalo Almoço,Pessoal
+10/out,13:00,15:30,Desenvolvimento,Trabalho
+10/out,15:30,17:30,Reunião-suporte,Trabalho
+10/out,17:30,18:40,Reservado Família,Pessoal
+10/out,18:40,19:00,Desenvolvimento,Trabalho
+10/out,19:00,21:00,Exercícios-Línguas,Pessoal
+10/out,21:00,22:00,Reservado Família,Pessoal
+10/out,22:00,22:20,Reservado Pessoal,Pessoal
+10/out,22:20,00:00,Sono,Pessoal
+11/out,00:00,06:00,Sono,Pessoal
+11/out,06:00,07:30,Pré-trabalho-casa,Pessoal
+11/out,07:30,08:45,E-mails,Trabalho
+11/out,08:45,09:00,Ginástica Laboral,Trabalho
+11/out,09:00,11:10,Desenvolvimento,Trabalho
+11/out,11:10,13:00,Intervalo Almoço,Pessoal
+11/out,13:00,14:00,Desenvolvimento,Trabalho
+11/out,14:00,15:10,Reunião-Vol,Trabalho
+11/out,15:10,18:15,Desenvolvimento,Trabalho
+11/out,18:15,18:30,Trabalho-Aula,Pessoal
+11/out,18:30,20:30,Aula-Línguas,Estudo
+11/out,18:30,20:30,Exercícios-Línguas,Pessoal
+11/out,20:30,22:10,Reservado Família,Pessoal
+11/out,22:10,23:10,Reservado Pessoal,Pessoal
+11/out,23:10,00:00,Sono,Pessoal
+,,,,

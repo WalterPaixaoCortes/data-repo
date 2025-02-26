@@ -16,4 +16,4 @@ select year as ano_premiacao,
         death_date as data_morte,
         death_city as cidade_morte,
         death_country as pais_morte
-from {{ source('src', 'nobel') }}
+from {{ source('bronze', 'nobel') }}

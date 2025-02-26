@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: src
+  - name: bronze
     tables:
       - name: netflix_titles
       - name: 9dias
@@ -10,3 +10,6 @@ sources:
       - name: pokemons
       - name: questoes_rows
       - name: questoes_gemini_rows
+      - name: 2022_Billionaire_List
+      - name: 2024_Billionaire_List
+      - name: population_demographics

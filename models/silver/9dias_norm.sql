@@ -6,5 +6,5 @@ select to_date(concat(replace("Dia",'out','oct'),'/2024'), 'DD/Mon/YYYY') as dia
         end), 'DD/Mon/YYYY HH24:MI') as hora_fim,
        "Atividade" as atividade,
        "Tipo de Atividade" as tipo_atividade
-from {{ source('src', '9dias')}}
+from {{ source('bronze', '9dias')}}
 where "Dia" is not null
