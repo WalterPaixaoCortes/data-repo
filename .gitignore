@@ -166,3 +166,4 @@ logs/
 seeds/src
 .user.yml
 .vscode/
+seeds/bronze/datasets/

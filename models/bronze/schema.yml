@@ -13,3 +13,5 @@ sources:
       - name: 2022_Billionaire_List
       - name: 2024_Billionaire_List
       - name: population_demographics
+      - name: washington_crimes_march_2025
+      - name: healthcare_dataset
