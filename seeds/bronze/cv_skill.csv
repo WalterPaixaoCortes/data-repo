@@ -1,0 +1,11 @@
+Skill,Categoria,Ferramentas,Skill_ID
+Product Management,Gestão,"Roadmapping, Liderança de times, Facilities Apps",1
+UX Design,Design,"Lean, UCD, Design Thinking, Prototipação",2
+Data Visualization,Analytics,"Power BI, Tableau, Grafana, D3.js",3
+BI / ETL,Data Engineering,"PowerCenter, AbInitio, OBIEE, Business Objects",4
+Data Engineering,Backend / Pipeline,"Python, Hadoop, Redis, Pipelines",5
+Cloud Development,Infraestrutura,"Pivotal Cloud Foundry, Hadoop",6
+Web Development,Desenvolvimento,"ASP, .NET, Java, HTML5/CSS3",7
+Project Management,Gestão,"SCRUM, Clarity, Oracle Finance",8
+Machine Learning,Data Science,"Python, Hadoop",9
+User Research,UX,"Entrevistas, Personas, Testes de Usabilidade",10

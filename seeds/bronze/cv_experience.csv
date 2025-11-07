@@ -1,0 +1,11 @@
+Empresa,Cargo,Período,Descricao,Categoria,Contexto,Inicio,Fim,Experience_ID
+Dell Technologies,Product Line Manager,2022–Presente,"Gestão de produtos, liderança de equipes, monitoramento de data centers",Gestão / Produto,Facilities / Data Centers,2022-01-01,,1
+Dell Technologies,Product Designer,2019–2022,"Lean, UCD, UX Research, Prototipação, Design Thinking",UX Design,Design centrado no usuário,2019-01-01,2022-12-31,2
+Dell Technologies,Principal Software Engineer,2017–2019,"Python, Hadoop, Redis, Angular, HTML5/CSS3, Machine Learning, BDD",Cloud / Data / Dev,Apps cloud-native e ML,2017-01-01,2019-12-31,3
+Dell Technologies,Software Development Advisor,2014–2017,"ETL, BI, OBIEE, PowerCenter, SCRUM, Root Cause Analysis",BI / Data Engineering,Sistemas corporativos HR,2014-01-01,2017-12-31,4
+Dell Technologies,Software Development Advisor,2009–2014,"Business Objects, ETL, SCRUM, Leadership, SQL",BI / Project Management,DW HR e coordenação de equipe,2009-01-01,2014-12-31,5
+Dell Technologies,Software Development Advisor,2008–2009,"Clarity PPM, Oracle Integration, Project Accounting",Project Management / Integration,Clarity + Oracle Finance,2008-01-01,2009-12-31,6
+Dell Technologies,Software Developer Engineer,2005–2008,"ASP, .NET, Java, ENDECA, Documentum, CMS",Web Development,Manutenção de >100 apps,2005-01-01,2008-12-31,7
+Future iQ,Data Analyst,2018–Presente,"Tableau, Python, Data Pipeline, ETL",Data Visualization / Analytics,Pipelines de survey e dashboards,2018-01-01,,8
+Accenture,Developer,2003–2005,"ASP, .NET",Software Development,Alocado na Dell,2003-01-01,2005-12-31,9
+Startups (diversas),Software Developer,1993–2003,"Clipper, Delphi, C++, SQL Server, Oracle",Software Development / Databases,Sistemas comerciais,1993-01-01,2003-12-31,10

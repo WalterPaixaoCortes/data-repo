@@ -15,3 +15,6 @@ sources:
       - name: population_demographics
       - name: washington_crimes_march_2025
       - name: healthcare_dataset
+      - name: cv_experience
+      - name: cv_skill
+      - name: cv_experience_skill
