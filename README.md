@@ -14,6 +14,7 @@ Welcome to the data-repo project. This project is a dbt-based repository that ma
   - [Running the Project](#running-the-project)
     - [Prerequisites](#prerequisites)
     - [Setup Instructions](#setup-instructions)
+    - [Scripts](#scripts)
 
 ---
 
@@ -33,7 +34,7 @@ Key highlights:
 A typical dbt project structure is followed. Key directories include:
 
 - **models/**: Contains the SQL files that define your data transformation models.
-- **macros/**: Stores custom macros. For instance, the global materializations and snapshot helper macros are available in the `dbt/include/global_project/macros/materializations/snapshots/helpers.sql` file.
+- **macros/**: Stores custom macros. For instance, the project's macros are located in the `macros/` directory (for example `macros/generate_schema_name.sql`).
 - **seeds/**: You can place any seed data here if needed.
 - **analyses/**: Contains analysis files that are not run as models.
 - **tests/**: Contains custom data tests.
@@ -57,9 +58,9 @@ The project is configured through the standard dbt files:
 
 ### Prerequisites
 
-- Python 3.12 (as indicated by the virtual environment folder `venv/lib/python3.12/...`)
-- dbt installed in your virtual environment.
-- Access to a PostgreSQL instance.
+- **Python:** Python 3.8+ (3.8–3.12 recommended). Use a Python version compatible with your `dbt` packages.
+- **dbt:** Installed in your virtual environment (e.g., `pip install dbt-postgres`).
+- **Database:** Access to a PostgreSQL instance.
 
 ### Setup Instructions
 
@@ -69,20 +70,53 @@ The project is configured through the standard dbt files:
    source venv/bin/activate
    pip install -r requirements.txt
    ```
+2. Configure your `profiles.yml` so dbt can connect to your database. Options:
 
-2. Configure your `profiles.yml` file with the necessary credentials to connect to your PostgreSQL instance.
+- Copy the provided template to your user dbt profiles location:
 
-3. Run the following dbt commands to build and test the project:
-   ```bash
-   dbt run
-   dbt test
-   ```
-4. If the above commands run successfully, you can now generate the documentation:
-   ```bash
-    dbt docs generate
-    dbt docs serve
-    ```
-5. Open your web browser and navigate to `http://localhost:8080` to view the generated documentation.
+  ```bash
+  mkdir -p ~/.dbt
+  cp profiles.yml ~/.dbt/profiles.yml
+  ```
+
+- Or set the environment variable `DBT_PROFILES_DIR` to this repo root so dbt reads the bundled `profiles.yml`.
+
+Required environment variables (used by the template in this repo):
+
+`DBT_DB`, `db_host`, `db_user`, `db_password`, `db_port`, `DBT_TGT`
+
+You can store these in your shell or a `.env` file and load them with `python-dotenv` during local development.
+
+3. (Optional) If the project uses dbt packages, install them:
+
+```bash
+dbt deps
+```
+
+4. Load seed data (the project includes CSV files under `seeds/`):
+
+```bash
+dbt seed
+```
+
+5. Run models and tests:
+
+```bash
+dbt run
+dbt test
+```
+6. Generate and serve documentation:
+
+```bash
+dbt docs generate
+dbt docs serve
+```
+
+When you run `dbt docs serve` it will print the URL to open (commonly `http://localhost:8080`).
+
+Notes:
+- For reproducible installs, consider pinning package versions in `requirements.txt` (for example, `dbt-core==1.6.0`, `dbt-postgres==1.6.0`).
+- The repo includes utilities (see `scripts/`) and seeds (see `seeds/`) — run `dbt seed` before `dbt run` if you rely on seeded data.
 
 ### Scripts
 
@@ -92,3 +126,7 @@ The `scripts/` directory contains utility scripts to assist with project setup a
 - `download_odata.py`: Script to download data from OData services.
 - `fix_csv_delimiter.py`: Utility to fix CSV delimiter issues.
 - `json_to_csv.py`: Utility to convert JSON files to CSV format.
+
+Other utilities in the `scripts/` directory include:
+
+- `break_excel_file.py`: Utility to split or process Excel files used when preparing seed data.

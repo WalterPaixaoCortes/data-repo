@@ -19,3 +19,6 @@ sources:
       - name: cv_skill
       - name: cv_experience_skill
       - name: space_missions
+      - name: ddna_event
+      - name: ddna_product
+      - name: ddna_customer
