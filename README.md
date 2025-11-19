@@ -34,10 +34,14 @@ A typical dbt project structure is followed. Key directories include:
 
 - **models/**: Contains the SQL files that define your data transformation models.
 - **macros/**: Stores custom macros. For instance, the global materializations and snapshot helper macros are available in the `dbt/include/global_project/macros/materializations/snapshots/helpers.sql` file.
-- **data/**: You can place any seed data here if needed.
+- **seeds/**: You can place any seed data here if needed.
+- **analyses/**: Contains analysis files that are not run as models.
+- **tests/**: Contains custom data tests.
+- **snapshots/**: Contains snapshot definitions for type-2 slowly changing dimensions.
+- **scripts/**: Contains utility scripts for project maintenance and data operations.
 - **target/**: Directory where the compiled SQL and run artifacts are stored (configured in `dbt_project.yml`).
 - **logs/**: Log files are written here to help with debugging and tracking changes.
-- **profiles.yml**: (Located outside the repo for security) Contains your dbt target configurations for connecting to PostgreSQL.
+- **profiles.yml**: (Template provided in repo) Contains your dbt target configurations for connecting to PostgreSQL.
 
 ---
 
@@ -45,7 +49,7 @@ A typical dbt project structure is followed. Key directories include:
 
 The project is configured through the standard dbt files:
 - **dbt_project.yml**: Configuration file specifying the project settings such as model paths, data paths, log paths, and target paths. Look out for sections referring to deprecated keys (e.g., `source_paths` vs. `model_paths`).
-- Environment variables and profiles (typically defined in `profiles.yml`) are used to manage credentials and database connection details.
+- **profiles.yml**: A template is provided in the root directory. It uses environment variables to manage credentials and database connection details securely. You can use this as a base for your local configuration.
 
 ---
 
@@ -80,15 +84,11 @@ The project is configured through the standard dbt files:
     ```
 5. Open your web browser and navigate to `http://localhost:8080` to view the generated documentation.
 
+### Scripts
 
-### Running the Project in a Docker Container
-   
-6. To run the project in a Docker container, use the following command:
-   1. Build the Docker image:
-   2. ```bash
-      docker build -t data-repo .
-      ```
-   3. Run the Docker container:
-   4. ```bash
-   docker run -p 8080:8080 data-repo
-   ```
+The `scripts/` directory contains utility scripts to assist with project setup and data management:
+
+- `create_structure.py`: Helper script to set up the project structure.
+- `download_odata.py`: Script to download data from OData services.
+- `fix_csv_delimiter.py`: Utility to fix CSV delimiter issues.
+- `json_to_csv.py`: Utility to convert JSON files to CSV format.
